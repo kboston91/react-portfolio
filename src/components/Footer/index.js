@@ -1,16 +1,18 @@
 import React from "react";
+import LinkedinLogo from './linkedin-logo.png';
+import gitHubLogo from './github-logo.png';
 
 function Footer() {
 	return (
 		<footer className="footer">
-			<div>
+			<div >
 				<a
 					href="https://github.com/kboston91"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<img
-						src={require("/Users/kourtneyboston/Desktop/projects/react-portfolio/src/assets/logos/github-logo.png")}
+						src={gitHubLogo}
 						alt="Github"
 						className="logo"
 					></img>
@@ -23,7 +25,7 @@ function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src={require("/Users/kourtneyboston/Desktop/projects/react-portfolio/src/assets/logos/linkedin-logo.png")}
+						src={LinkedinLogo}
 						alt="LinkedIn"
 						className="logo"
 					></img>

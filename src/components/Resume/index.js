@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeDownload from './KbostonResCon.pdf';
 
 function Resume() {
 	return (
@@ -7,7 +8,7 @@ function Resume() {
 				<h1 className="page-header">My Resume</h1>
 			</div>
 			<div className="bottom-spacing">
-				<a href={require("../../assets/resume/KBostonResCon.pdf")} download>
+				<a href={ResumeDownload} download>
 					<h4>Resume Download</h4>
 				</a>
 			</div>
