@@ -18,7 +18,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Kourtney Boston
+           Kourtney Boston
         </a>
       </h2>
       <nav>
@@ -33,7 +33,7 @@ function Nav(props) {
           </li>
           {categories.map((category) => (
             <li
-              className={`mx-1 ${
+              className={`mx-2 ${
                 currentCategory.name === category.name && !contactSelected && 'navActive'
                 }`}
               key={category.name}
